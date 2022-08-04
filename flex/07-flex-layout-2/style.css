@@ -23,6 +23,68 @@ body {
 
 .card {
   border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
   border-radius: 4px;
+}
+
+/*EDITS FROM HERE*/
+
+ul {
+  /* this removes list bullets */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  display: flex;
+  flex: 1;
+}
+
+.card {
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+}
+
+.sidebar {
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+.header {
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
 }
